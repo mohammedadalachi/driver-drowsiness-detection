@@ -1,6 +1,6 @@
 # Driver Drowsiness Detection System
 
-A real-time drowsiness detector that watches a driver through a webcam and sounds an alarm when their eyes stay closed or they start yawning. It was our final group project for SOF106 Principles of Artificial Intelligence.
+A real-time drowsiness detector that watches a driver through a webcam and sounds an alarm when their eyes stay closed or they start yawning. It was a university project for SOF106 Principles of Artificial Intelligence.
 
 In Malaysia, roughly one in five fatal crashes involves a drowsy driver. A passenger can wake a tired driver, but a driver alone has nobody. This project tries to fill that gap with a camera and a few classic AI techniques.
 
@@ -29,7 +29,7 @@ The models retrain every 150 frames so the system keeps up with changes in postu
 
 ## Results
 
-We tested on 18 simulated cases (15 drowsy, 3 alert) while adding one component at a time:
+Tested on 18 simulated cases (15 drowsy, 3 alert) while adding one component at a time:
 
 | Configuration | Precision | Recall | F1 |
 |---|---|---|---|
@@ -79,8 +79,6 @@ When you quit, the session is saved to `session_log.csv` (time, EAR, MAR, drowsi
 ## Author
 
 Dalachi Mohammed Abderrahmane ([@mohammedadalachi](https://github.com/mohammedadalachi))
-
-Developed as a university group project for SOF106 Principles of Artificial Intelligence. My parts were the calibration logic, the alert state machine with BFS, and the K-Means clustering.
 
 ## License
 
