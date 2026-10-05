@@ -1,5 +1,9 @@
 # Driver Drowsiness Detection System
 
+![Python](https://img.shields.io/badge/python-3.10-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-university%20project-lightgrey)
+
+![stack](https://icon-marquee.giann.dev/v1/icons?i=py,opencv,numpy)
+
 A real-time drowsiness detector that watches a driver through a webcam and sounds an alarm when their eyes stay closed or they start yawning. It was a university project for SOF106 Principles of Artificial Intelligence.
 
 In Malaysia, roughly one in five fatal crashes involves a drowsy driver. A passenger can wake a tired driver, but a driver alone has nobody. This project tries to fill that gap with a camera and a few classic AI techniques.
